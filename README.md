@@ -140,3 +140,10 @@ After running with a real key, save the terminal output of:
 
 - `.env` is in `.gitignore`. Never paste your API key into code or commit it.
 - If a key ever leaks, delete it in the provider's console and make a new one.
+
+## Evidence
+
+- Quiz response (200, schema-valid JSON): evidence/quiz.png
+- Tests (7 passed): evidence/pytest.png
+- Streaming chat recording: evidence/streaming-demo.mp4
+- Tested live on Groq (openai/gpt-oss-20b). Mistral and OpenAI are covered by the offline tests.
